@@ -50,6 +50,10 @@ to the user to test `s.authorized` to see if the server certificate was
 signed by one of the specified CAs. If `s.authorized === false` then the error
 can be found in `s.authorizationError`.
 
+### s = tls.connect(socket, [options], callback)
+
+Similar to `tls.connect(port, [host]), but uses an existing socket.
+
 
 ### tls.Server
 
